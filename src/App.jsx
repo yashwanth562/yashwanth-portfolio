@@ -23,7 +23,7 @@ function App() {
     <main>
       <section className="hero">
         <img
-          src="/images/profile.jpg"
+          src="./images/profile.jpg"
           alt="Devina Yashwanth Kumar"
           className="profile-img"
         />
@@ -37,7 +37,7 @@ function App() {
         </p>
 
         <div className="buttons">
-          <a href="/resume/resume.pdf" target="_blank">
+          <a href="./resume/resume.pdf" target="_blank">
             Resume
           </a>
           <a href="https://github.com/yashwanth562" target="_blank">
