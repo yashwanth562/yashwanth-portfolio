@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #f8fafc;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #38bdf8;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 56px;
+  margin: 10px 0;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-top: 0;
+}
+
+h3 {
+  color: #cbd5e1;
+}
+
+.hero p {
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+.buttons a {
+  display: inline-block;
+  background: #2563eb;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.buttons a:hover {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.card {
+  background: rgba(30, 41, 59, 0.9);
+  padding: 30px;
+  margin: 25px 0;
+  border-radius: 18px;
+  border: 1px solid #334155;
+}
+
+.card p {
+  line-height: 1.7;
+  color: #e2e8f0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills span {
+  background: #0f172a;
+  color: #38bdf8;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid #334155;
+  font-weight: bold;
+}
+
+.project {
+  background: #0f172a;
+  padding: 22px;
+  margin-top: 20px;
+  border-radius: 14px;
+  border-left: 4px solid #38bdf8;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+  transition: 0.3s;
+}
+
+.tech {
+  color: #38bdf8 !important;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
